@@ -1,0 +1,35 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_axi_dma_0_0/sim/design_1_axi_dma_0_0.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_rst_ACLK_48M_0/sim/design_1_rst_ACLK_48M_0.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_axi_dma_1_0/sim/design_1_axi_dma_1_0.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_proc_sys_reset_1_0/sim/design_1_proc_sys_reset_1_0.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/design_1_clk_wiz_0_0_conv_funs_pkg.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/design_1_clk_wiz_0_0_proc_common_pkg.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/design_1_clk_wiz_0_0_ipif_pkg.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/design_1_clk_wiz_0_0_family_support.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/design_1_clk_wiz_0_0_family.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/design_1_clk_wiz_0_0_soft_reset.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/proc_common_v3_00_a/hdl/src/vhdl/design_1_clk_wiz_0_0_pselect_f.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/design_1_clk_wiz_0_0_address_decoder.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/design_1_clk_wiz_0_0_slave_attachment.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/design_1_clk_wiz_0_0_axi_lite_ipif.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz_drp.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_axi_clk_config.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_proc_sys_reset_0_1/sim/design_1_proc_sys_reset_0_1.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+"../../../../a7_cyslff_test.ip_user_files/bd/design_1/ip/design_1_proc_sys_reset_0_2/sim/design_1_proc_sys_reset_0_2.vhd" \
+"../../../../src/rtl/dvi/digilent/DVI_Constants.vhd" \
+"../../../../src/rtl/dvi/digilent/OutputSERDES.vhd" \
+"../../../../src/rtl/dvi/digilent/TMDS_Encoder.vhd" \
+"../../../../src/rtl/cy2axi/aximrt.vhd" \
+"../../../../src/rtl/cy2axi/aximif.vhd" \
+"../../../../src/rtl/cy2axi/cy2axi.vhd" \
+"../../../../src/rtl/cy2axi/cyslff_const.vhd" \
+"../../../../src/rtl/cy2axi/cyslff_ifctr.vhd" \
+"../../../../src/rtl/cy2axi/cyslff_io.vhd" \
+"../../../../src/rtl/cy2axi/cyslff_syncio.vhd" \
+
+# Do not sort compile order
+nosort

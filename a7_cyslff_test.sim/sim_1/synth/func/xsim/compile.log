@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/FPGA/a7_cyslff_test/a7_cyslff_test.sim/sim_1/synth/func/xsim/sim_k7_cyslff_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module a7_cyslff_test_top
+INFO: [VRFC 10-311] analyzing module aximif
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module cyslff
+INFO: [VRFC 10-311] analyzing module cyslff_ifctr
+INFO: [VRFC 10-311] analyzing module cyslff_io
+INFO: [VRFC 10-311] analyzing module cyslff_syncio
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/FPGA/a7_cyslff_test/src/sim/sim_a7_cyslff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_k7_cyslff

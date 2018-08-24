@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Aug 12 11:46:15 2018
+# Process ID: 12024
+# Current directory: D:/Projects/FPGA/a7_cyslff_test/a7_cyslff_test.sim/sim_3/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Projects/FPGA/a7_cyslff_test/a7_cyslff_test.sim/sim_3/behav/xsim/xsim.dir/sim_a7_ddr3_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Projects/FPGA/a7_cyslff_test/a7_cyslff_test.sim/sim_3/behav/xsim/webtalk.log
+# Journal file: D:/Projects/FPGA/a7_cyslff_test/a7_cyslff_test.sim/sim_3/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Projects/FPGA/a7_cyslff_test/a7_cyslff_test.sim/sim_3/behav/xsim/xsim.dir/sim_a7_ddr3_behav/webtalk/xsim_webtalk.tcl -notrace

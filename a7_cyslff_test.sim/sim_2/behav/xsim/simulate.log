@@ -1,0 +1,3 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+$finish called at time : 44060 ns : File "D:/Projects/FPGA/a7_cyslff_test/a7_cyslff_test.srcs/sim_2/new/sim_axis.v" Line 127

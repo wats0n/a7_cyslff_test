@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../a7_cyslff_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../../a7_cyslff_test.srcs/sources_1/bd/design_1/ipshared/0ab1/hdl" --include "../../../../../a7_cyslff_test.srcs/sources_1/ip/clk_wiz_0" --include "../../../../../src/sim/ddr3" --include "C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
+"sim_a7_ddr3_func_synth.v" \
+"../../../../../src/rtl/axim/aximif.v" \
+"../../../../../src/rtl/axim/aximrt.v" \
+"../../../../../src/sim/ddr3/wiredly.v" \
+
+sv xil_defaultlib  --include "../../../../../a7_cyslff_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../../a7_cyslff_test.srcs/sources_1/bd/design_1/ipshared/0ab1/hdl" --include "../../../../../a7_cyslff_test.srcs/sources_1/ip/clk_wiz_0" --include "../../../../../src/sim/ddr3" --include "C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
+"../../../../../src/sim/ddr3/ddr3_model.sv" \
+
+verilog xil_defaultlib  --include "../../../../../a7_cyslff_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../../a7_cyslff_test.srcs/sources_1/bd/design_1/ipshared/0ab1/hdl" --include "../../../../../a7_cyslff_test.srcs/sources_1/ip/clk_wiz_0" --include "../../../../../src/sim/ddr3" --include "C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
+"../../../../../src/sim/sim_a7_ddr3.v" \
+
+# Do not sort compile order
+nosort

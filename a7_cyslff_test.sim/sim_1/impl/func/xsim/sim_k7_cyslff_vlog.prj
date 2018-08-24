@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../a7_cyslff_test.srcs/sources_1/ip/clk_wiz_0" \
+"sim_k7_cyslff_func_impl.v" \
+"../../../../../src/sim/sim_a7_cyslff.v" \
+
+# Do not sort compile order
+nosort
